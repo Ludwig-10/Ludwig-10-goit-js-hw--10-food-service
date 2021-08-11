@@ -1,0 +1,34 @@
+{
+  "name": "ludwig-10-goit-js-hw--10-food-service",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://ludwig-10.github.io/Ludwig-10-goit-js-hw--10-food-service/",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Ludwig-10-goit-js-hw--10-food-service/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludwig-10/Ludwig-10-goit-js-hw--10-food-service.git"
+  },
+  "keywords": [],
+  "author": "Denys Karakoi <denys.karakoi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludwig-10/Ludwig-10-goit-js-hw--10-food-service/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "s": "^1.0.0",
+    "st": "^3.0.0"
+  }
+}
